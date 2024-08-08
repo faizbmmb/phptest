@@ -1,32 +1,17 @@
- phptest
-Php test yayasan peneraju
+1. Set Up the project
+   1.Create Project directory
+   2.Create Database and Table
 
+2. Create the Feedback From
+   1.Create HTML Form ('index.php')
 
-1) Database Setup
+3. Create PHP Scripts for CRUD Operation
+   1.Create Record('create.php')
+   2.Read record ('index.php)
+   3.Update Record('edit.php')
+   4.Delete Record('delete.php')
 
-Create a database and table to store survey response
-
-Database :
-
-CREATE DATABASE feedback_survey;
-
-Table:
-
-CREATE TABLE feedback (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100),
-    email VARCHAR(100),
-    age INT,
-    document VARCHAR(255),
-    feedback_type ENUM('positive', 'negative'),
-    services SET('service1', 'service2', 'service3'),
-    comments TEXT
-);
-
-2) PHP Form Creation
--index.php
-
-3) Edit Page
-
-Create an edit page ('edit.php) to handle updating records.
--edit.php
+4. Test the Application
+   1. Access the Form.
+   2. Add, Edit , and Delete Reords:
+      Test creating, updating and deleting feedback records
